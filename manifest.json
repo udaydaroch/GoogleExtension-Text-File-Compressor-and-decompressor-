@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "File Compressor",
+  "description": "Compress and decompress files using Huffman coding.",
+  "version": "1.0",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "image.png",
+      "48": "image.png",
+      "128": "image.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
